@@ -7,21 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B1196DAE196EA08900806EB8 /* FHCHTTPAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1196DAD196EA08900806EB8 /* FHCHTTPAccess.swift */; };
 		B12681B2193B7024004CFA09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B12681B1193B7024004CFA09 /* Foundation.framework */; };
 		B12681B4193B7025004CFA09 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B12681B3193B7025004CFA09 /* CoreGraphics.framework */; };
 		B12681B6193B7025004CFA09 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B12681B5193B7025004CFA09 /* UIKit.framework */; };
 		B12681BC193B7025004CFA09 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B12681BA193B7025004CFA09 /* InfoPlist.strings */; };
-		B12681BE193B7025004CFA09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B12681BD193B7025004CFA09 /* main.m */; };
-		B12681C2193B7025004CFA09 /* FHCCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B12681C1193B7025004CFA09 /* FHCCAppDelegate.m */; };
 		B12681C5193B7025004CFA09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B12681C3193B7025004CFA09 /* Main.storyboard */; };
-		B12681C8193B7025004CFA09 /* FHCCFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B12681C7193B7025004CFA09 /* FHCCFirstViewController.m */; };
-		B12681CB193B7025004CFA09 /* FHCCSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B12681CA193B7025004CFA09 /* FHCCSecondViewController.m */; };
 		B12681CD193B7025004CFA09 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B12681CC193B7025004CFA09 /* Images.xcassets */; };
 		B12681D4193B7025004CFA09 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B12681D3193B7025004CFA09 /* XCTest.framework */; };
 		B12681D5193B7025004CFA09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B12681B1193B7024004CFA09 /* Foundation.framework */; };
 		B12681D6193B7025004CFA09 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B12681B5193B7025004CFA09 /* UIKit.framework */; };
 		B12681DE193B7025004CFA09 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B12681DC193B7025004CFA09 /* InfoPlist.strings */; };
 		B12681E0193B7025004CFA09 /* fhccTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B12681DF193B7025004CFA09 /* fhccTests.m */; };
+		B12681EA193B710C004CFA09 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B12681E9193B710C004CFA09 /* SystemConfiguration.framework */; };
+		B130279A196401E400178FA0 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = B1302799196401E400178FA0 /* Reachability.m */; };
+		B130279E1967E7CD00178FA0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B130279D1967E7CD00178FA0 /* CoreLocation.framework */; };
+		B1492F2719714D7500CA4B36 /* FHCStatus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B1492F2519714D7500CA4B36 /* FHCStatus.xcdatamodeld */; };
+		B174FE25195AF54800B08D90 /* FHCState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B174FE24195AF54800B08D90 /* FHCState.swift */; };
+		B186F98219758EEA00E6DDFB /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = B186F98119758EEA00E6DDFB /* State.swift */; };
+		B1B38482197C1F1500FFF5BA /* Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B38481197C1F1500FFF5BA /* Convenience.swift */; };
+		B1CC6F771955993F00CCB4E4 /* FHCCActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CC6F761955993F00CCB4E4 /* FHCCActionViewController.swift */; };
+		B1CC6F791956F07100CCB4E4 /* FHCCPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CC6F781956F07100CCB4E4 /* FHCCPickerViewController.swift */; };
+		B1CC6F7B1958635C00CCB4E4 /* FHCCAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CC6F7A1958635C00CCB4E4 /* FHCCAppDelegate.swift */; };
+		B1CC6F7D19586B4000CCB4E4 /* FHCCStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CC6F7C19586B4000CCB4E4 /* FHCCStatusViewController.swift */; };
+		B1CC6F7F19586C2700CCB4E4 /* FHCCSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CC6F7E19586C2700CCB4E4 /* FHCCSettingViewController.swift */; };
+		B1D39F0719BDA7370027BE7B /* json.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D39F0619BDA7370027BE7B /* json.swift */; };
+		B1D39F0A19BDF64E0027BE7B /* exceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D39F0919BDF64E0027BE7B /* exceptionHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,27 +46,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B1196DAD196EA08900806EB8 /* FHCHTTPAccess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FHCHTTPAccess.swift; sourceTree = "<group>"; };
 		B12681AE193B7024004CFA09 /* fhcc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fhcc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B12681B1193B7024004CFA09 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B12681B3193B7025004CFA09 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		B12681B5193B7025004CFA09 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B12681B9193B7025004CFA09 /* fhcc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fhcc-Info.plist"; sourceTree = "<group>"; };
 		B12681BB193B7025004CFA09 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B12681BD193B7025004CFA09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B12681BF193B7025004CFA09 /* fhcc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fhcc-Prefix.pch"; sourceTree = "<group>"; };
-		B12681C0193B7025004CFA09 /* FHCCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHCCAppDelegate.h; sourceTree = "<group>"; };
-		B12681C1193B7025004CFA09 /* FHCCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHCCAppDelegate.m; sourceTree = "<group>"; };
 		B12681C4193B7025004CFA09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B12681C6193B7025004CFA09 /* FHCCFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHCCFirstViewController.h; sourceTree = "<group>"; };
-		B12681C7193B7025004CFA09 /* FHCCFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHCCFirstViewController.m; sourceTree = "<group>"; };
-		B12681C9193B7025004CFA09 /* FHCCSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHCCSecondViewController.h; sourceTree = "<group>"; };
-		B12681CA193B7025004CFA09 /* FHCCSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHCCSecondViewController.m; sourceTree = "<group>"; };
 		B12681CC193B7025004CFA09 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B12681D2193B7025004CFA09 /* fhccTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fhccTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B12681D3193B7025004CFA09 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		B12681DB193B7025004CFA09 /* fhccTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fhccTests-Info.plist"; sourceTree = "<group>"; };
 		B12681DD193B7025004CFA09 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B12681DF193B7025004CFA09 /* fhccTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fhccTests.m; sourceTree = "<group>"; };
+		B12681E9193B710C004CFA09 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B1302798196401E400178FA0 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		B1302799196401E400178FA0 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		B130279D1967E7CD00178FA0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B1492F2619714D7500CA4B36 /* FHCStatus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FHCStatus.xcdatamodel; sourceTree = "<group>"; };
+		B174FE24195AF54800B08D90 /* FHCState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FHCState.swift; sourceTree = "<group>"; };
+		B174FEAC1962E15B00B08D90 /* fhcc-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "fhcc-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		B186F98119758EEA00E6DDFB /* State.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		B1B38481197C1F1500FFF5BA /* Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Convenience.swift; sourceTree = "<group>"; };
+		B1CC6F761955993F00CCB4E4 /* FHCCActionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FHCCActionViewController.swift; sourceTree = "<group>"; };
+		B1CC6F781956F07100CCB4E4 /* FHCCPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FHCCPickerViewController.swift; sourceTree = "<group>"; };
+		B1CC6F7A1958635C00CCB4E4 /* FHCCAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FHCCAppDelegate.swift; sourceTree = "<group>"; };
+		B1CC6F7C19586B4000CCB4E4 /* FHCCStatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FHCCStatusViewController.swift; sourceTree = "<group>"; };
+		B1CC6F7E19586C2700CCB4E4 /* FHCCSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FHCCSettingViewController.swift; sourceTree = "<group>"; };
+		B1D39F0619BDA7370027BE7B /* json.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = json.swift; path = "swift-json/json.swift"; sourceTree = "<group>"; };
+		B1D39F0819BDF6040027BE7B /* exceptionHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = exceptionHandler.h; sourceTree = "<group>"; };
+		B1D39F0919BDF64E0027BE7B /* exceptionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = exceptionHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +84,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B130279E1967E7CD00178FA0 /* CoreLocation.framework in Frameworks */,
+				B12681EA193B710C004CFA09 /* SystemConfiguration.framework in Frameworks */,
 				B12681B4193B7025004CFA09 /* CoreGraphics.framework in Frameworks */,
 				B12681B6193B7025004CFA09 /* UIKit.framework in Frameworks */,
 				B12681B2193B7024004CFA09 /* Foundation.framework in Frameworks */,
@@ -85,6 +108,8 @@
 		B12681A5193B7024004CFA09 = {
 			isa = PBXGroup;
 			children = (
+				B1D39F0519BDA7260027BE7B /* swift-json */,
+				B174FEAC1962E15B00B08D90 /* fhcc-Bridging-Header.h */,
 				B12681B7193B7025004CFA09 /* fhcc */,
 				B12681D9193B7025004CFA09 /* fhccTests */,
 				B12681B0193B7024004CFA09 /* Frameworks */,
@@ -104,6 +129,8 @@
 		B12681B0193B7024004CFA09 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B130279D1967E7CD00178FA0 /* CoreLocation.framework */,
+				B12681E9193B710C004CFA09 /* SystemConfiguration.framework */,
 				B12681B1193B7024004CFA09 /* Foundation.framework */,
 				B12681B3193B7025004CFA09 /* CoreGraphics.framework */,
 				B12681B5193B7025004CFA09 /* UIKit.framework */,
@@ -115,15 +142,22 @@
 		B12681B7193B7025004CFA09 /* fhcc */ = {
 			isa = PBXGroup;
 			children = (
-				B12681C0193B7025004CFA09 /* FHCCAppDelegate.h */,
-				B12681C1193B7025004CFA09 /* FHCCAppDelegate.m */,
 				B12681C3193B7025004CFA09 /* Main.storyboard */,
-				B12681C6193B7025004CFA09 /* FHCCFirstViewController.h */,
-				B12681C7193B7025004CFA09 /* FHCCFirstViewController.m */,
-				B12681C9193B7025004CFA09 /* FHCCSecondViewController.h */,
-				B12681CA193B7025004CFA09 /* FHCCSecondViewController.m */,
+				B1B38481197C1F1500FFF5BA /* Convenience.swift */,
+				B1302798196401E400178FA0 /* Reachability.h */,
+				B1302799196401E400178FA0 /* Reachability.m */,
+				B174FE24195AF54800B08D90 /* FHCState.swift */,
+				B186F98119758EEA00E6DDFB /* State.swift */,
+				B1CC6F7A1958635C00CCB4E4 /* FHCCAppDelegate.swift */,
+				B1CC6F7C19586B4000CCB4E4 /* FHCCStatusViewController.swift */,
+				B1CC6F761955993F00CCB4E4 /* FHCCActionViewController.swift */,
+				B1CC6F7E19586C2700CCB4E4 /* FHCCSettingViewController.swift */,
+				B1CC6F781956F07100CCB4E4 /* FHCCPickerViewController.swift */,
+				B1196DAD196EA08900806EB8 /* FHCHTTPAccess.swift */,
 				B12681CC193B7025004CFA09 /* Images.xcassets */,
 				B12681B8193B7025004CFA09 /* Supporting Files */,
+				B1D39F0819BDF6040027BE7B /* exceptionHandler.h */,
+				B1D39F0919BDF64E0027BE7B /* exceptionHandler.m */,
 			);
 			path = fhcc;
 			sourceTree = "<group>";
@@ -133,8 +167,7 @@
 			children = (
 				B12681B9193B7025004CFA09 /* fhcc-Info.plist */,
 				B12681BA193B7025004CFA09 /* InfoPlist.strings */,
-				B12681BD193B7025004CFA09 /* main.m */,
-				B12681BF193B7025004CFA09 /* fhcc-Prefix.pch */,
+				B1492F2519714D7500CA4B36 /* FHCStatus.xcdatamodeld */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -155,6 +188,14 @@
 				B12681DC193B7025004CFA09 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B1D39F0519BDA7260027BE7B /* swift-json */ = {
+			isa = PBXGroup;
+			children = (
+				B1D39F0619BDA7370027BE7B /* json.swift */,
+			);
+			name = "swift-json";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +246,17 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Fukuzawa Technology";
 				TargetAttributes = {
+					B12681AD193B7024004CFA09 = {
+						DevelopmentTeam = 5JD7M8RHST;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
+					};
 					B12681D1193B7025004CFA09 = {
 						TestTargetID = B12681AD193B7024004CFA09;
 					};
@@ -255,10 +307,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B12681CB193B7025004CFA09 /* FHCCSecondViewController.m in Sources */,
-				B12681C8193B7025004CFA09 /* FHCCFirstViewController.m in Sources */,
-				B12681C2193B7025004CFA09 /* FHCCAppDelegate.m in Sources */,
-				B12681BE193B7025004CFA09 /* main.m in Sources */,
+				B1492F2719714D7500CA4B36 /* FHCStatus.xcdatamodeld in Sources */,
+				B1CC6F7F19586C2700CCB4E4 /* FHCCSettingViewController.swift in Sources */,
+				B1196DAE196EA08900806EB8 /* FHCHTTPAccess.swift in Sources */,
+				B1D39F0719BDA7370027BE7B /* json.swift in Sources */,
+				B186F98219758EEA00E6DDFB /* State.swift in Sources */,
+				B1CC6F7B1958635C00CCB4E4 /* FHCCAppDelegate.swift in Sources */,
+				B1CC6F791956F07100CCB4E4 /* FHCCPickerViewController.swift in Sources */,
+				B130279A196401E400178FA0 /* Reachability.m in Sources */,
+				B1B38482197C1F1500FFF5BA /* Convenience.swift in Sources */,
+				B1CC6F771955993F00CCB4E4 /* FHCCActionViewController.swift in Sources */,
+				B1D39F0A19BDF64E0027BE7B /* exceptionHandler.m in Sources */,
+				B1CC6F7D19586B4000CCB4E4 /* FHCCStatusViewController.swift in Sources */,
+				B174FE25195AF54800B08D90 /* FHCState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,9 +401,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_SWIFT_FLAGS = "";
 				SDKROOT = iphoneos;
+				SWIFT_INCLUDE_PATHS = "";
 			};
 			name = Debug;
 		};
@@ -372,8 +436,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_SWIFT_FLAGS = "";
 				SDKROOT = iphoneos;
+				SWIFT_INCLUDE_PATHS = "";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -383,10 +450,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "fhcc/fhcc-Prefix.pch";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "fhcc/fhcc-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "fhcc-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -396,10 +470,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "fhcc/fhcc-Prefix.pch";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "fhcc/fhcc-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "fhcc-Bridging-Header.h";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -463,6 +543,7 @@
 				B12681E5193B7025004CFA09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B12681E6193B7025004CFA09 /* Build configuration list for PBXNativeTarget "fhccTests" */ = {
 			isa = XCConfigurationList;
@@ -471,8 +552,22 @@
 				B12681E8193B7025004CFA09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B1492F2519714D7500CA4B36 /* FHCStatus.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B1492F2619714D7500CA4B36 /* FHCStatus.xcdatamodel */,
+			);
+			currentVersion = B1492F2619714D7500CA4B36 /* FHCStatus.xcdatamodel */;
+			path = FHCStatus.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B12681A6193B7024004CFA09 /* Project object */;
 }

@@ -1,0 +1,7 @@
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/default.*
+!*.xcodeproj/*.xcworkspace
+*.xcodeproj/*.xcworkspace/*
+!.xcodeproj/*.xcworkspace/contents.xcworkspacedata
+
